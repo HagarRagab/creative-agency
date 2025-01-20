@@ -33,9 +33,9 @@ The **Create Agency Landing Page** is a visually appealing and interactive singl
 
 ### **Technologies Used:**
 
--   **HTML:**
--   **CSS:**
--   **JavaScript:**
+-   **HTML**
+-   **CSS**
+-   **JavaScript**
 
 ---
 
