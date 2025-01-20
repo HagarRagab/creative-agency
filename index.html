@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Creative Agency</title>
+        <script
+            src="https://kit.fontawesome.com/fa997c3f4b.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="css/normal.css" />
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+    <body>
+        <!-- Start landign page -->
+        <div id="landing-page">
+            <div class="overlay"></div>
+            <header>
+                <div class="logo">special design</div>
+                <ul class="navigation">
+                    <li><a href="#about-us">about</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                    <li><a href="#timeline">timeline</a></li>
+                    <li><a href="#contact-us">contact us</a></li>
+                </ul>
+                <i class="fa-regular fa-bars navigation-icon"></i>
+            </header>
+            <ul class="navigation-popup">
+                <li><a href="#about-us">about</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#gallery">gallery</a></li>
+                <li><a href="#timeline">timeline</a></li>
+                <li><a href="#contact-us">contact us</a></li>
+            </ul>
+            <div class="description">
+                <h1>we are <span>creative</span> agency</h1>
+                <p id="sentence"></p>
+            </div>
+        </div>
+        <!-- End landign page -->
+        <!-- Start setting box -->
+        <div id="setting-box">
+            <div id="colors">
+                <p>colors</p>
+                <span class="circle active" data-color="#ff9800"></span>
+                <span class="circle" data-color="#E91E63"></span>
+                <span class="circle" data-color="#009688"></span>
+                <span class="circle" data-color="#03a9f4"></span>
+                <span class="circle" data-color="#4caf50"></span>
+            </div>
+            <div id="random-bg">
+                <p>random backgrounds</p>
+                <button class="yes-no-btn ra-yes active">yes</button>
+                <button class="yes-no-btn ra-no">no</button>
+            </div>
+            <div id="show-bullets">
+                <p>show bullets</p>
+                <button class="yes-no-btn sh-yes active">yes</button>
+                <button class="yes-no-btn sh-no">no</button>
+            </div>
+            <button id="reset">reset options</button>
+            <div id="gear"><i class="fa-solid fa-gear"></i></div>
+        </div>
+        <!-- End setting box -->
+        <!-- Srart bullets -->
+        <ul id="bullets">
+            <li>
+                <span class="label">about us</span>
+                <a href="#about-us"></a>
+            </li>
+            <li>
+                <span class="label">skills</span>
+                <a href="#skills"></a>
+            </li>
+            <li>
+                <span class="label">gallery</span>
+                <a href="#gallery"></a>
+            </li>
+            <li>
+                <span class="label">timeline</span>
+                <a href="#timeline"></a>
+            </li>
+            <li>
+                <span class="label">contact us</span>
+                <a href="#contact-us"></a>
+            </li>
+        </ul>
+        <!-- End bullets -->
+        <!-- Start about us -->
+        <div id="about-us">
+            <div class="text-content">
+                <h2 class="section-head">about us</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis ipsum, tenetur dolores esse magni ratione
+                    distinctio! Quod iusto neque fuga, maxime quos nostrum
+                    quibusdam dicta deserunt blanditiis non voluptate id?
+                </p>
+            </div>
+            <img src="images/about-us.jpg" alt="about-us-image" />
+        </div>
+        <!-- End about us -->
+        <!-- Start skills -->
+        <div id="skills">
+            <h2 class="section-head">our skills</h2>
+            <div class="skills-content">
+                <div class="label">
+                    <p>html</p>
+                    <div class="fill-container">
+                        <div class="fill" data-fill="80%"></div>
+                    </div>
+                </div>
+                <div class="label">
+                    <p>css</p>
+                    <div class="fill-container">
+                        <div class="fill" data-fill="70%"></div>
+                    </div>
+                </div>
+                <div class="label">
+                    <p>javascript</p>
+                    <div class="fill-container">
+                        <div class="fill" data-fill="85%"></div>
+                    </div>
+                </div>
+                <div class="label">
+                    <p>c</p>
+                    <div class="fill-container">
+                        <div class="fill" data-fill="40%"></div>
+                    </div>
+                </div>
+                <div class="label">
+                    <p>mysql</p>
+                    <div class="fill-container">
+                        <div class="fill" data-fill="30%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End skills -->
+        <!-- Start gallery -->
+        <div id="gallery">
+            <h2 class="section-head">our gallery</h2>
+            <div class="images">
+                <img src="images/01.jpg" alt="image 1" />
+                <img src="images/02.jpg" alt="image 2" />
+                <img src="images/03.jpg" alt="image 3" />
+                <img src="images/04.jpg" alt="image 4" />
+                <img src="images/05.jpg" alt="image 5" />
+                <img src="images/06.png" alt="image 6" />
+                <img src="images/07.jpg" alt="image 7" />
+                <img src="images/08.jpg" alt="image 8" />
+                <img src="images/09.jpg" alt="image 9" />
+                <img src="images/10.jpg" alt="image 10" />
+            </div>
+        </div>
+        <div class="popup">
+            <div class="dark-overlay"></div>
+            <div id="gallery-popup">
+                <p></p>
+                <img src="" alt="" />
+            </div>
+        </div>
+        <!-- End gallery -->
+        <!-- Start page scroll progress -->
+        <div class="page-scroll-progress"></div>
+        <!-- End page scroll progress -->
+        <!-- Start timeline -->
+        <div id="timeline">
+            <div class="year first">2018</div>
+            <div class="timeline-content">
+                <h4>testing heading</h4>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Deleniti ex molestiae illo nisi quaerat veniam beatae
+                    aliquid eligendi. Aliquid tenetur quas ex, sequi porro nam
+                    commodi placeat maxime nobis quam?
+                </p>
+            </div>
+            <div class="timeline-content">
+                <h4>testing heading</h4>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Deleniti ex molestiae illo nisi quaerat veniam beatae
+                    aliquid eligendi. Aliquid tenetur quas ex, sequi porro nam
+                    commodi placeat maxime nobis quam?
+                </p>
+            </div>
+            <div class="year">2016</div>
+            <div class="timeline-content">
+                <h4>testing heading</h4>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Deleniti ex molestiae illo nisi quaerat veniam beatae
+                    aliquid eligendi. Aliquid tenetur quas ex, sequi porro nam
+                    commodi placeat maxime nobis quam?
+                </p>
+            </div>
+            <div class="timeline-content">
+                <h4>testing heading</h4>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Deleniti ex molestiae illo nisi quaerat veniam beatae
+                    aliquid eligendi. Aliquid tenetur quas ex, sequi porro nam
+                    commodi placeat maxime nobis quam?
+                </p>
+            </div>
+            <div class="vertical-line"></div>
+        </div>
+        <!-- End timeline -->
+        <!-- Start contact us -->
+        <div id="contact-us">
+            <h2 class="section-head">contact us</h2>
+            <form action="">
+                <div class="info">
+                    <input type="text" placeholder="your name" required />
+                    <input type="tel" placeholder="your phone" required />
+                    <input type="email" placeholder="your email" required />
+                    <input type="text" placeholder="subject" required />
+                </div>
+                <div class="message">
+                    <textarea
+                        name=""
+                        id=""
+                        placeholder="your message"
+                        required
+                    ></textarea>
+                    <input type="submit" id="submit-btn" value="send" />
+                </div>
+            </form>
+        </div>
+        <!-- End contact us -->
+        <!-- Start go to top button -->
+        <div class="go-to-top">
+            <i class="fa-solid fa-arrow-up"></i>
+        </div>
+        <!-- End go to top button -->
+        <!-- Start footer -->
+        <footer>&copy <span class="date"></span> created by hagar ragab</footer>
+        <!-- End footer -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
